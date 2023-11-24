@@ -9,9 +9,7 @@ const pages = locales.map((locale) => ({
   has: [
     {
       type: "host",
-      value: `${locale === "en" ? "" : locale + "."}${
-        process.env.NEXT_PUBLIC_APP_HOST
-      }`,
+      value: "vercel-git-main-dejurin.vercel.app",
     },
   ],
 }));
