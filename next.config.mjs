@@ -9,7 +9,7 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "vercel-git-main-dejurin.vercel.app",
+            value: process.env.NEXT_PUBLIC_APP_HOST,
           },
         ],
       }],
