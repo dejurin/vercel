@@ -5,7 +5,7 @@ const nextConfig = {
     return {
       afterFiles: [{
         source: "/:path*",
-        destination: `/en/:path*`,
+        destination: "/en/:path*",
         has: [
           {
             type: "host",
